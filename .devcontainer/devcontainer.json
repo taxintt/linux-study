@@ -1,0 +1,19 @@
+{
+    "name": "for_c",
+    "context": "..",
+    "dockerFile": "./../Dockerfile",
+    "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+    "extensions": [
+        "hookyqr.beautify",
+        "alefragnani.bookmarks",
+        "lacroixdavid1.vscode-format-context-menu",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "ionutvmi.path-autocomplete",
+        "chrmarti.regex",
+        "humao.rest-client",
+        "wayou.vscode-icons-mac",
+        "ms-vscode.cpptools",
+        "formulahendry.code-runner"
+    ]
+}
